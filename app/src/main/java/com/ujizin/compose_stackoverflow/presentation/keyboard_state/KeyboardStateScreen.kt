@@ -1,7 +1,6 @@
-package com.ujizin.compose_stackoverflow.ui.ui.keyboard_state
+package com.ujizin.compose_stackoverflow.presentation.keyboard_state
 
 import android.widget.Toast
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.ime
 import androidx.compose.material.TextField
@@ -15,9 +14,6 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
-import androidx.compose.ui.platform.LocalLifecycleOwner
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleOwner
 
 /** you can use enum instead boolean. */
 @Composable
